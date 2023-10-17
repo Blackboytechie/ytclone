@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="youtube.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo-container">
+          <i class="ri-menu-line"></i>
+          <div class="logo">
+            <a href="https://www.youtube.com/" style="display: flex;align-items: center;text-decoration: none;" >
+                <div class="logo-img">
+                  <img src="img/youtube-48.png" style="width: 50px;height: 50px;">
+                </div>
+                <h1 id="logo-text">YouTube</h1>
+            </a>
+          </div>
+        </div>
+        <div class="search-container">
+            <input type="search" name="search" id="searchinput" placeholder="Search" style="padding-left: 15px;font-size: medium;color: #E7E3E2;" >
+            <div class="searchicon" title="Search">
+                <i class="ri-search-line" style="padding:0px 10px 0px 10px;"></i>
+            </div>
+            <div class="mic">
+                <i class="ri-mic-fill"></i>
+            </div>
+        </div>
+        <div class="profile-container">
+            <a href="" style="text-decoration: none;padding: 10px;">
+                <i title="Create" class="ri-video-add-line" style="padding: 5px;"></i>
+            </a>
+            <a href="" style="text-decoration: none;padding: 10px;">
+                <i title="Notifications" class="ri-notification-4-line" style="padding: 5px;"></i>
+            </a>
+            <button type="button" class="profilebtn" style="border-radius: 100px;width: 40px;height: 40px;">b</button>
+        </div>
+    </div>
+    <div class="body-container">
+        <!-- <div class="sidemenu-container">
+            <p style="color: black;">side menu</p>
+        </div> -->
+        <div class="content-container">
+            <div class="post-container">
+                <iframe id="videoply" width="1200px" height="500px"
+                src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                </iframe>
+                <div class="post-sub-container">
+                    <p style="font-size: large;color: #fff;">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p><br>
+                    <h6 style="font-size: medium;color: #6F6E6E;">channel name</h6><br>
+                    <p style="font-size: large;color: #6F6E6E;">22k views<i>.</i>3 months ago</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
